@@ -20,16 +20,6 @@ class Solution:
             s2_idx = t[1]
             s3_idx = s1_idx + s2_idx
             if s3_idx == len(s3_l):
-                #if not c1 * c2:
-                #    if len(s1_l) == 0:
-                #        if len(s2_l) > len(s3_l):
-                #            return False
-                #        return True
-                #    if len(s2_l) == 0:
-                #        if len(s1_l) > len(s3_l):
-                #            return False
-                #        return True
-                #    return False
                 return True
             if s1_idx < len(s1_l):
                 if s1_l[s1_idx] == s3_l[s3_idx] and (s1_idx+1, s2_idx) not in v:
